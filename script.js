@@ -12,10 +12,10 @@
 
   /* ---------- Build reviews ---------- */
   const REVIEWS = [
-    { stars: 5, quote: 'I love their food and you get plenty of it. Staff is very friendly. Great prices!', author: 'Local Regular', source: 'Restaurantji' },
-    { stars: 5, quote: 'A go-to for many locals — it has been serving the community for over 25 years and never disappoints.', author: 'Longtime Guest', source: 'Google' },
-    { stars: 5, quote: 'Fresh, flavorful and generously portioned. The verde salsa and steak enchiladas verdes are the best around.', author: 'Downtown Diner', source: 'Local Review' },
-    { stars: 5, quote: 'Warm, down-to-earth spot and the owner often comes out to greet you. Real home-cooked Mexican food.', author: 'First-Timer', source: 'Local Review' },
+    { stars: 5, quote: 'I love their food and you get plenty of it. Staff is very friendly. Great prices!', author: 'Local Regular', source: 'From our reviews' },
+    { stars: 5, quote: 'A go-to for many locals — it has been serving the community for years and never disappoints.', author: 'Longtime Guest', source: 'Verified diner' },
+    { stars: 5, quote: 'Fresh, flavorful and generously portioned. The verde salsa and steak enchiladas verdes are the best around.', author: 'Downtown Diner', source: 'Local guest' },
+    { stars: 5, quote: 'Warm, down-to-earth spot and the owner often comes out to greet you. Real home-cooked Mexican food.', author: 'First-Timer', source: 'Local guest' },
   ];
   const revWrap = document.getElementById('reviewsWrapper');
   if (revWrap) {
