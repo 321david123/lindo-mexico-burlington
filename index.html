@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lindo Mexico | Authentic Mexican Restaurant in Downtown Burlington, Iowa</title>
+  <meta name="description" content="A downtown Burlington institution since 1996. Family-owned, authentic Mexican cooking on Jefferson Street — steak enchiladas verdes, sizzling fajitas, chimichangas and homemade salsa. Cash or check only." />
+  <meta name="theme-color" content="#B41E2E" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="Lindo Mexico — Burlington, Iowa" />
+  <meta property="og:description" content="A downtown institution since 1996 — family-owned, authentic Mexican cooking on Jefferson Street. Cash or check only." />
+  <meta property="og:image" content="https://321david123.github.io/lindo-mexico-burlington/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1600" />
+  <meta property="og:image:height" content="1067" />
+  <meta property="og:url" content="https://321david123.github.io/lindo-mexico-burlington/" />
+  <link rel="canonical" href="https://321david123.github.io/lindo-mexico-burlington/" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lindo Mexico — Burlington, Iowa" />
+  <meta name="twitter:description" content="A downtown institution since 1996 — family-owned, authentic Mexican cooking. Cash or check only." />
+  <meta name="twitter:image" content="https://321david123.github.io/lindo-mexico-burlington/assets/og-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Lindo Mexico",
+    "servesCuisine": "Mexican",
+    "image": "https://321david123.github.io/lindo-mexico-burlington/assets/og-image.jpg",
+    "telephone": "+1-319-753-9952",
+    "priceRange": "$",
+    "paymentAccepted": "Cash, Check",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "622 Jefferson St",
+      "addressLocality": "Burlington",
+      "addressRegion": "IA",
+      "postalCode": "52601",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Thursday"], "opens": "11:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "11:00", "closes": "20:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Skip link -->
+  <a href="#menu" class="skip-link">Skip to menu</a>
+
+  <!-- Grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand" aria-label="Lindo Mexico home">
+        <span class="nav__mark" aria-hidden="true">LM</span>
+        <span class="nav__name">Lindo Mexico</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#story">Story</a>
+        <a href="#signature">Signatures</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <div class="nav__actions">
+        <a href="tel:+13197539952" class="btn btn--ghost nav__call">(319) 753-9952</a>
+        <a href="https://www.google.com/maps?q=Lindo+Mexico,+622+Jefferson+St,+Burlington,+IA+52601" target="_blank" rel="noopener" class="btn btn--solid">Get Directions</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="overlayMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Full-screen overlay menu -->
+  <div class="overlay" id="overlayMenu" aria-hidden="true">
+    <nav class="overlay__nav" aria-label="Mobile">
+      <a href="#story">Story</a>
+      <a href="#signature">Signatures</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div class="overlay__cta">
+      <a href="tel:+13197539952" class="btn btn--ghost">Call (319) 753-9952</a>
+      <a href="https://www.google.com/maps?q=Lindo+Mexico,+622+Jefferson+St,+Burlington,+IA+52601" target="_blank" rel="noopener" class="btn btn--solid">Get Directions</a>
+    </div>
+  </div>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__media" aria-hidden="true">
+        <img class="hero__img" src="assets/hero.jpg" alt="" fetchpriority="high" decoding="async" />
+        <div class="hero__scrim"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Downtown Burlington, Iowa &bull; Desde 1996</p>
+        <h1 class="hero__title">
+          <span class="hero__script">Lindo Mexico</span>
+          <span class="hero__sub">Authentic Mexican Kitchen</span>
+        </h1>
+        <p class="hero__tagline">Home-cooked Mexican favorites on Jefferson Street — the same generous plates locals have loved for nearly 30 years.</p>
+        <div class="hero__actions">
+          <a href="tel:+13197539952" class="btn btn--solid btn--lg">Call to Order</a>
+          <a href="#menu" class="btn btn--outline btn--lg">See the Favorites</a>
+        </div>
+        <div class="hero__note">
+          <span class="dot" aria-hidden="true"></span>
+          <span>A downtown institution since 1996 &bull; Cash or check only</span>
+        </div>
+      </div>
+      <a href="#story" class="hero__scrollcue" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ STORY ============ -->
+    <section class="story" id="story">
+      <div class="story__wrap">
+        <div class="story__text">
+          <p class="kicker"><span class="kicker__line"></span>Nuestra Historia</p>
+          <h2 class="story__title">Nearly 30 years of home cooking in the heart of downtown.</h2>
+          <p>Since 1996, Lindo Mexico has been the family-owned corner of downtown Burlington where regulars are greeted by name and first-timers leave as regulars. You'll find us at <em>622 Jefferson Street</em>, in one of downtown's historic storefronts — the kind of place where the owner still comes out to say hello.</p>
+          <p>Everything is made the way it always has been: fresh chips and <em>homemade salsa</em> the moment you sit down, generous plates of enchiladas, sizzling fajitas and chimichangas, and a warm, unhurried welcome. We keep it simple and honest — <em>cash or check only</em>, just like day one.</p>
+          <a href="#signature" class="link-underline">Meet the signatures &rarr;</a>
+          <div class="story__stats">
+            <div class="stat">
+              <span class="stat__num" data-count="1996">0</span>
+              <span class="stat__label">Serving since</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="30" data-suffix=" yrs">0</span>
+              <span class="stat__label">Downtown &amp; family-run</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="100" data-suffix="%">0</span>
+              <span class="stat__label">Made from scratch</span>
+            </div>
+          </div>
+        </div>
+        <div class="story__media">
+          <img src="assets/interior.jpg" alt="Warm, casual dining room at Lindo Mexico in downtown Burlington" loading="lazy" decoding="async" width="600" height="450" />
+          <div class="story__badge">
+            <span class="story__badge-script">Since 1996</span>
+            <span class="story__badge-sub">Familia &amp; Sabor</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SIGNATURE DISHES ============ -->
+    <section class="sig" id="signature">
+      <div class="sig__head">
+        <p class="kicker kicker--center"><span class="kicker__line"></span>Lo Mejor de la Casa<span class="kicker__line"></span></p>
+        <h2 class="section-title">The plates regulars come back for</h2>
+      </div>
+
+      <article class="sig__row">
+        <div class="sig__img reveal-img">
+          <img src="assets/enchiladas.jpg" alt="Steak enchiladas verdes topped with green salsa and melted cheese" loading="lazy" decoding="async" width="500" height="600" />
+        </div>
+        <div class="sig__copy">
+          <span class="sig__index">01</span>
+          <h3 class="sig__name">Steak Enchiladas Verdes</h3>
+          <p>The dish people drive in for — tender steak rolled in soft tortillas under our bright, house-made <em>salsa verde</em> and plenty of cheese. It's the one regulars order without even looking at the menu.</p>
+          <span class="sig__tag">A house favorite</span>
+          <a href="#menu" class="link-underline sig__link">On the menu &rarr;</a>
+        </div>
+      </article>
+
+      <article class="sig__row sig__row--rev">
+        <div class="sig__img reveal-img">
+          <img src="assets/fajitas.jpg" alt="Sizzling combo fajitas with steak, chicken and shrimp, peppers and onions" loading="lazy" decoding="async" width="500" height="600" />
+        </div>
+        <div class="sig__copy">
+          <span class="sig__index">02</span>
+          <h3 class="sig__name">Combo Fajitas</h3>
+          <p>Steak, chicken and shrimp grilled with peppers and onions, arriving at the table still sizzling with warm tortillas and all the fixings. Built to share and impossible to walk past.</p>
+          <span class="sig__tag">Steak &bull; Chicken &bull; Shrimp</span>
+          <a href="#visit" class="link-underline sig__link">Find us downtown &rarr;</a>
+        </div>
+      </article>
+
+      <article class="sig__row">
+        <div class="sig__img reveal-img">
+          <img src="assets/chimichanga.jpg" alt="Golden steak chimichanga served with rice, beans and guacamole" loading="lazy" decoding="async" width="500" height="600" />
+        </div>
+        <div class="sig__copy">
+          <span class="sig__index">03</span>
+          <h3 class="sig__name">Steak Chimichanga</h3>
+          <p>A crisp, golden flour tortilla packed with seasoned steak, finished with cheese, guacamole and sour cream. Generous, satisfying and a longtime downtown favorite.</p>
+          <span class="sig__tag">Generous portions</span>
+          <a href="#menu" class="link-underline sig__link">See the menu &rarr;</a>
+        </div>
+      </article>
+
+      <article class="sig__row sig__row--rev">
+        <div class="sig__img reveal-img">
+          <img src="assets/salsa.jpg" alt="Fresh tortilla chips with homemade salsa and guacamole" loading="lazy" decoding="async" width="500" height="600" />
+        </div>
+        <div class="sig__copy">
+          <span class="sig__index">04</span>
+          <h3 class="sig__name">Chips, Salsa &amp; Guacamole</h3>
+          <p>The welcome that starts every meal: warm tortilla chips with our fresh, homemade salsa — the <em>verde</em> has a following of its own — and creamy guacamole made the traditional way.</p>
+          <span class="sig__tag">Made fresh, every day</span>
+          <a href="#menu" class="link-underline sig__link">Start here &rarr;</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ BANNER ============ -->
+    <section class="banner" aria-label="Good to know">
+      <div class="banner__inner">
+        <span class="banner__script">Bienvenidos</span>
+        <h2 class="banner__title">Downtown Burlington's taquería since 1996</h2>
+        <p>Family-owned, made from scratch, and still the neighborhood's cash-or-check favorite. <strong>Come as you are.</strong></p>
+      </div>
+    </section>
+
+    <!-- ============ MENU (curated favorites) ============ -->
+    <section class="menu" id="menu">
+      <div class="head">
+        <p class="kicker kicker--center"><span class="kicker__line"></span>El Menú<span class="kicker__line"></span></p>
+        <h2 class="section-title">A taste of the menu</h2>
+        <p class="menu__note">A sampling of the favorites downtown has loved for years. The full menu is even bigger — call ahead and we'll tell you today's plates.</p>
+      </div>
+
+      <div class="menu__cols">
+        <div class="menu__group">
+          <h3>To Start</h3>
+          <div class="menu__item">
+            <span class="menu__item-name">Chips &amp; Homemade Salsa</span>
+            <p class="menu__item-desc">Warm tortilla chips with fresh salsa roja and our house salsa verde.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Guacamole</span>
+            <p class="menu__item-desc">Made the traditional way — creamy, fresh and generous.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Fried Potatoes</span>
+            <p class="menu__item-desc">A crispy, comforting downtown favorite.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Chile Relleno</span>
+            <p class="menu__item-desc">Roasted poblano stuffed with cheese, lightly battered and sauced.</p>
+          </div>
+        </div>
+
+        <div class="menu__group">
+          <h3>From the Grill</h3>
+          <div class="menu__item">
+            <span class="menu__item-name">Combo Fajitas</span>
+            <p class="menu__item-desc">Steak, chicken and shrimp with peppers and onions, served sizzling.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Shrimp in Garlic Butter</span>
+            <p class="menu__item-desc">Sautéed shrimp in a rich garlic butter — a standout order.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Steak Tacos</span>
+            <p class="menu__item-desc">Grilled steak in soft tortillas with rice and beans.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">El Ranchero Combo</span>
+            <p class="menu__item-desc">A hearty combination plate to satisfy the whole table.</p>
+          </div>
+        </div>
+
+        <div class="menu__group">
+          <h3>House Specialties</h3>
+          <div class="menu__item">
+            <span class="menu__item-name">Steak Enchiladas Verdes</span>
+            <p class="menu__item-desc">The one regulars order every time — steak enchiladas under bright salsa verde.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Steak Chimichanga</span>
+            <p class="menu__item-desc">Crisp, golden and packed with seasoned steak, cheese and guacamole.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Plate of Enchiladas</span>
+            <p class="menu__item-desc">Chicken, cheese or beef, sauced and served with rice and beans.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Taco Salad</span>
+            <p class="menu__item-desc">A crisp shell piled with your choice of filling and all the fixings.</p>
+          </div>
+        </div>
+
+        <div class="menu__group">
+          <h3>Sweet &amp; Sides</h3>
+          <div class="menu__item">
+            <span class="menu__item-name">Churros</span>
+            <p class="menu__item-desc">Warm, cinnamon-sugar and made to finish the meal right.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Fried Ice Cream</span>
+            <p class="menu__item-desc">The classic crispy-outside, cold-inside dessert everyone shares.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Rice &amp; Beans</span>
+            <p class="menu__item-desc">The dependable sides that round out every plate.</p>
+          </div>
+          <div class="menu__item">
+            <span class="menu__item-name">Vegetarian Options</span>
+            <p class="menu__item-desc">Ask — there are plenty of fresh, meat-free plates on the menu.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="menu__foot">Prices are budget-friendly and portions are generous. Cash or check only.</p>
+
+      <div class="menu__cta">
+        <a href="tel:+13197539952" class="btn btn--solid btn--lg">Call to Order</a>
+        <a href="https://www.google.com/maps?q=Lindo+Mexico,+622+Jefferson+St,+Burlington,+IA+52601" target="_blank" rel="noopener" class="btn btn--outline btn--lg">Get Directions</a>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery" id="gallery">
+      <div class="head">
+        <p class="kicker kicker--center"><span class="kicker__line"></span>La Galería<span class="kicker__line"></span></p>
+        <h2 class="section-title">A look at the table</h2>
+      </div>
+      <div class="swiper gallery__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide gallery__slide"><img src="assets/enchiladas.jpg" alt="Steak enchiladas verdes" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/fajitas.jpg" alt="Sizzling combo fajitas" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/tacos.jpg" alt="Steak tacos with fresh toppings" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/salsa.jpg" alt="Chips with homemade salsa and guacamole" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/chimichanga.jpg" alt="Golden steak chimichanga plate" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/churros.jpg" alt="Warm churros dusted with cinnamon sugar" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/interior.jpg" alt="The casual, welcoming Lindo Mexico dining room" loading="lazy" decoding="async" /></div>
+          <div class="swiper-slide gallery__slide"><img src="assets/hero.jpg" alt="A spread of Lindo Mexico dishes" loading="lazy" decoding="async" /></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="features" aria-label="What to know">
+      <div class="features__head">
+        <p class="kicker kicker--center"><span class="kicker__line"></span>Por qué Lindo Mexico<span class="kicker__line"></span></p>
+        <h2 class="section-title">Come as you are</h2>
+      </div>
+      <div class="features__grid">
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v9a5 5 0 0 0 10 0V3M12 17v4M5 3h14"/></svg>
+          <h3>Dine-In</h3>
+          <p>Casual, comfortable tables where the owner still greets guests.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a1.5 1.5 0 0 1-1.5 1.3H7.7a1.5 1.5 0 0 1-1.5-1.3L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <h3>Carry-Out</h3>
+          <p>Call ahead at (319) 753-9952 and your favorites are bagged to go.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M6 7l1 12a1.5 1.5 0 0 0 1.5 1.4h7A1.5 1.5 0 0 0 18 19L19 7M9 7V5a3 3 0 0 1 6 0v2M12 11v6"/></svg>
+          <h3>Cash or Check</h3>
+          <p>No cards — simple and honest, the same as day one. An ATM is nearby.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c5-3 8-6.5 8-11a4 4 0 0 0-8-1 4 4 0 0 0-8 1c0 4.5 3 8 8 11z"/><path d="M12 9v8"/></svg>
+          <h3>Vegetarian</h3>
+          <p>Plenty of fresh, clearly labeled meat-free plates — just ask.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <h3>Since 1996</h3>
+          <p>A downtown Burlington institution for nearly three decades.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="7" r="3"/><circle cx="16.5" cy="8.5" r="2.2"/><path d="M4 20v-1a5 5 0 0 1 10 0v1M14.5 20v-.5a4 4 0 0 1 5.5-3.7"/></svg>
+          <h3>Family-Owned</h3>
+          <p>Run by the same family that's been feeding downtown for years.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 14a8 8 0 0 1 16 0M3 14h18l-1.5 4.5a1.5 1.5 0 0 1-1.4 1H5.9a1.5 1.5 0 0 1-1.4-1L3 14zM12 6V3"/></svg>
+          <h3>Made From Scratch</h3>
+          <p>Homemade salsa and guacamole, generous plates, fair prices.</p>
+        </div>
+        <div class="feature">
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-5.6 7-11a7 7 0 0 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <h3>Downtown</h3>
+          <p>622 Jefferson Street — right in the heart of historic Burlington.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="reviews" id="reviews">
+      <div class="head">
+        <p class="kicker kicker--center kicker--light"><span class="kicker__line"></span>Lo que dicen<span class="kicker__line"></span></p>
+        <h2 class="section-title section-title--light">Loved by the neighborhood</h2>
+      </div>
+      <div class="swiper reviews__swiper">
+        <div class="swiper-wrapper" id="reviewsWrapper"></div>
+        <div class="swiper-pagination reviews__pag"></div>
+      </div>
+    </section>
+
+    <!-- ============ VISIT ============ -->
+    <section class="visit" id="visit">
+      <div class="visit__grid">
+        <div class="visit__info">
+          <p class="kicker"><span class="kicker__line"></span>Visítanos</p>
+          <h2 class="section-title">Find us downtown</h2>
+          <div class="visit__block">
+            <h3>Address</h3>
+            <p><a href="https://www.google.com/maps?q=Lindo+Mexico,+622+Jefferson+St,+Burlington,+IA+52601" target="_blank" rel="noopener">622 Jefferson St<br />Burlington, IA 52601</a></p>
+          </div>
+          <div class="visit__block">
+            <h3>Phone</h3>
+            <p><a href="tel:+13197539952">(319) 753-9952</a></p>
+          </div>
+          <div class="visit__block">
+            <h3>Payment</h3>
+            <p>Cash or check only — no credit or debit cards.</p>
+            <span class="visit__pay">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>
+              Cash &amp; check welcome
+            </span>
+          </div>
+          <div class="visit__block">
+            <h3>Hours</h3>
+            <table class="hours">
+              <tbody>
+                <tr class="closed"><th scope="row">Sun – Tue</th><td>Closed</td></tr>
+                <tr><th scope="row">Wed – Thu</th><td>11:00 AM – 7:00 PM</td></tr>
+                <tr><th scope="row">Fri – Sat</th><td>11:00 AM – 8:00 PM</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="visit__actions">
+            <a href="tel:+13197539952" class="btn btn--solid">Call to Order</a>
+            <a href="https://www.google.com/maps?q=Lindo+Mexico,+622+Jefferson+St,+Burlington,+IA+52601" target="_blank" rel="noopener" class="btn btn--outline">Get Directions</a>
+          </div>
+        </div>
+        <div class="visit__map">
+          <iframe
+            title="Map to Lindo Mexico, 622 Jefferson St, Burlington, IA"
+            src="https://www.google.com/maps?q=Lindo+Mexico,+622+Jefferson+St,+Burlington,+IA+52601&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <span class="nav__mark" aria-hidden="true">LM</span>
+        <span class="footer__script">Lindo Mexico</span>
+        <p class="footer__tag">Downtown Burlington's home-cooked taquería since 1996.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Visit</h4>
+        <p>622 Jefferson St<br />Burlington, IA 52601</p>
+        <p><a href="tel:+13197539952">(319) 753-9952</a></p>
+      </div>
+      <div class="footer__col">
+        <h4>Hours</h4>
+        <p>Sun–Tue Closed<br />Wed–Thu 11a–7p<br />Fri–Sat 11a–8p</p>
+      </div>
+      <div class="footer__col">
+        <h4>Good to Know</h4>
+        <ul class="footer__links">
+          <li>Cash or check only</li>
+          <li>Family-owned &amp; from scratch</li>
+          <li><a href="https://www.facebook.com/p/Lindo-Mexico-100063641227586/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.google.com/maps?q=Lindo+Mexico,+622+Jefferson+St,+Burlington,+IA+52601" target="_blank" rel="noopener">Directions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <p>&copy; <span id="year">2026</span> Lindo Mexico. All rights reserved.</p>
+      <p>Downtown Burlington, Iowa &bull; Desde 1996</p>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile action bar -->
+  <div class="actionbar" aria-label="Quick actions">
+    <a href="tel:+13197539952" class="actionbar__btn actionbar__btn--primary"><svg class="actionbar__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4h3l1.4 4-2 1.4a11 11 0 0 0 5.2 5.2l1.4-2 4 1.4v3a2 2 0 0 1-2.2 2A16 16 0 0 1 4.5 6.2 2 2 0 0 1 6.5 4z"/></svg>Call</a>
+    <a href="#menu" class="actionbar__btn"><svg class="actionbar__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Menu</a>
+    <a href="https://www.google.com/maps?q=Lindo+Mexico,+622+Jefferson+St,+Burlington,+IA+52601" target="_blank" rel="noopener" class="actionbar__btn"><svg class="actionbar__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-5.6 7-11a7 7 0 0 0-14 0c0 5.4 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Map</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+  <script>/* visibility failsafe: show content even if GSAP is delayed/blocked/throttled */setTimeout(function(){document.querySelectorAll(".reveal,[data-reveal]").forEach(function(e){e.classList.add("is-in","is-visible")});document.querySelectorAll("[data-hero-line],.hero__title .line>span,.hero__line,.hero__title .ltr").forEach(function(e){e.style.opacity="1";e.style.transform="none";e.style.visibility="visible"})},2200);</script>
+</body>
+</html>
